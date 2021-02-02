@@ -125,7 +125,7 @@ body {
   }
 
   html {
-    margin-top: 15%;
+    margin-top: 11%;
   }
 
   body{
@@ -133,7 +133,7 @@ body {
   }
 
   .madeBy {
-    margin-top: 9%;
+    margin-top: 11%;
     font-size: 26px;
   }
 
@@ -143,6 +143,8 @@ body {
   
     
     margin: 12px;
+
+    font-size: 31px;
   
   }
   
