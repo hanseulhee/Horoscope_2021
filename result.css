@@ -77,23 +77,61 @@ body {
   cursor: pointer;
 }
 
-@media screen and (max-width: 780px) {
-  body {
-    background-position: 70px -70px;
-    background-size: 500px;
+
+
+
+@media screen and (max-width: 1000px) {
+
+ 
+
+  html {
+    margin-top: 40%;
   }
 
-  .rtan {
-    margin-top: 50px;
+  body{
+    background-position: 330px 100px;
   }
 
+  .title {
+    color: darkred;
+    text-align: center;
+    font-size: 70px;
+  }
+  
   .msg {
-    font-size: 24px;
-    line-height: 36px;
-    margin-bottom: 36px;
-    padding: 10px;
-  }
-  .msg > br {
+    color: darkred;
+    text-align: center;
+    font-size: 48px;
+    line-height: 100px;
+  
     display: none;
   }
-}
+
+  .btn-back {
+    width: 35%;
+    height: 65px;
+    border-radius: 15px;
+    font-size: 40px;
+  }
+  
+  .btn-share {
+    width: 35%;
+    height: 65px;
+    
+    border-radius: 15px;
+    margin-left: 8%;
+    font-size: 40px;
+   
+  }
+  
+  .rtan {
+    display: block;
+    width: 400px;
+    height: 400px;
+    background-color: darkred;
+    margin: 80px auto 110px auto;
+
+    font-size: 62px;
+  }  
+  
+};

@@ -7,6 +7,7 @@
 body {
   background-color: ivory;
   background-image: url("https://new-year.spartacodingclub.kr/images/pattern.png");
+
   background-position: 600px 100px;
   background-repeat: no-repeat;
   margin: 0;
@@ -15,44 +16,41 @@ body {
 .mytitle {
   color: darkred;
   text-align: center;
+
   margin-top: 100px;
   margin-bottom: 50px;
 }
 
 .mytitle > h1 {
   font-size: 56px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
-.rtans {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: auto;
-  width: 1200px;
-}
-.rtans > a:hover {
-  background-color: darkred;
-}
 .rtans > a {
-  display: block;
   width: 150px;
   height: 150px;
-  border: solid 3px darkred;
+
   border-radius: 150px;
+  border: 3px solid darkred;
+
   box-shadow: 0px 0px 10px 0px darkred;
+
   background-color: white;
+  display: block;
+
   margin: 10px;
+
+  background-size: cover;
+  background-position: center;
 
   color: white;
   text-decoration: none;
   text-align: center;
   font-size: 24px;
+}
 
-  /* 백그라운드에 꽉차게 이미지를 넣고싶을 때 */
-  background-size: cover;
-  background-position: center;
+.rtans > a:hover {
+  background-color: darkred;
 }
 
 .rtan1 {
@@ -92,22 +90,41 @@ body {
   background-image: url("https://new-year.spartacodingclub.kr/images/yearS12.png");
 }
 
-@media screen and (max-width: 780px) {
-  body {
-    background-position: 70px -70px;
-    background-size: 500px;
+.rtans {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  width: 1200px;
+  margin: auto;
+}
+.madeBy {
+  font-size: 13px;
+  color: rgb(73, 73, 73);
+}
+
+@media screen and (max-width: 1000px) {
+  .mytitle > h1 {
+    font-size: 80px;
+    margin-bottom: 0;
+  }
+  .mytitle > h2 {
+    font-size: 40px;
+
+    margin-bottom: 10%;
   }
 
   .rtans {
-    width: 100%;
+    width: 80%;
   }
 
-  .mytitle{
-      margin-top: 20px;
-      margin-bottom: 20px;
+  html {
+    margin-top: 40%;
   }
 
-  .rtans > a{
-      color: darkred;
+  body{
+    background-position: 330px 100px;
   }
-}
+};
