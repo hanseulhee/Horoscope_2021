@@ -101,7 +101,11 @@ body {
   margin: auto;
 }
 .madeBy {
-  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  font-size: 17px;
   color: rgb(73, 73, 73);
 }
 
@@ -121,10 +125,26 @@ body {
   }
 
   html {
-    margin-top: 40%;
+    margin-top: 30%;
   }
 
   body{
     background-position: 330px 100px;
   }
+
+  .madeBy {
+    margin-top: 9%;
+    font-size: 26px;
+  }
+
+  .rtans > a {
+    width: 200px;
+    height: 200px;
+  
+    
+    margin: 12px;
+  
+  }
+  
+  
 };
